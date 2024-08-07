@@ -18,9 +18,12 @@ This repository provides step-by-step instructions to help students install Mong
 2. Run the downloaded `.msi` file to start the installation.
 3. During the installation:
    - Choose the "Complete" setup type.
+   ![complete_install.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/complete_install.png)
    - On the "Service Configuration" screen, leave "Install MongoD as a Service" checked.
+   ![service_config.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/service_config.png)
    - Leave the data directory and log directory at their default settings.
    - Ensure the "Install MongoDB Compass" option is checked to install MongoDB Compass along with the server.
+   ![compass_install.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/compass_install.png)
    - Complete the installation to ensure MongoDB is installed at `C:\Program Files\MongoDB\Server\7.0`.
 
 ### Step 2: Install PyMongo
