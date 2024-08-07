@@ -103,9 +103,9 @@ Check to see if you have pymongo installed in your dev Conda environment.
 ### Verifying the Installation
 
 1. Open the Anaconda prompt.
-2. Type `mongo` and press Enter. This should start the MongoDB shell.
-3. Type `mongosh` and press Enter. This should start the MongoDB shell again.
-4. Type `mongodump --version` and press Enter. This should display the version of the MongoDB Database Tools.
+3. Type `mongosh` and press Enter. This should start the MongoDB shell.
+4. Type `quit` and press Enter.  This should terminate the MongoDB instance.
+5. Type `mongoimport --version` and press Enter. This should display the version of the MongoDB Database Tools.
 
 If you encounter any issues, please refer to the official MongoDB documentation or seek assistance from your instructor.
 
