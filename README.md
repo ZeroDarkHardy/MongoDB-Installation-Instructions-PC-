@@ -43,11 +43,11 @@ Check to see if you have pymongo installed in your dev Conda environment.
 
 #### Check for PyMongo Installation:
 
-1. Run the following code in your Anaconda prompt:
+2. Run the following code in your Anaconda prompt:
    ```sh
    conda list pymongo
    ```
-2. If pymongo is installed on your machine, the command line will display the following information, although the versions may be different:
+3. If pymongo is installed on your machine, the command line will display the following information, although the versions may be different:
    ```sh
    (dev) MBP:~ User$ conda list pymongo
    # packages in environment at /opt/anaconda3/envs/dev:
@@ -56,7 +56,7 @@ Check to see if you have pymongo installed in your dev Conda environment.
    pymongo                   3.12.0            py310he9d5cce_0
    ```
 
-3. If pymongo is not installed in your dev Conda environment, run the following in your Conda environment:
+4. If pymongo is not installed in your dev Conda environment, run the following in your Conda environment:
    ```sh
    conda install pymongo
    ```
