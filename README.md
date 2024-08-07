@@ -70,14 +70,14 @@ Check to see if you have pymongo installed in your dev Conda environment.
 1. Visit the following link to download the Mongo Shell:
    [Mongo Shell Zip File](https://downloads.mongodb.com/compass/mongosh-2.2.15-win32-x64.zip)
 2. Extract the contents of the zip file.
-3. Copy everything from inside the `bin` folder in the zip file into the `bin` folder within your MongoDB installation directory (e.g., `C:\Program Files\MongoDB\Server\7.0\bin`).
+3. Copy everything from inside the `bin` folder in the zip file (Should be 2 files, `mongosh.exe` and `mongosh_crypt_v1.dll`) into the `bin` folder within your MongoDB installation directory (`C:\Program Files\MongoDB\Server\7.0\bin`).
 
 ### Step 4: Install MongoDB Database Tools
 
 1. Visit the following link to download the MongoDB Database Tools:
    [MongoDB Database Tools Zip File](https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.10.0.zip)
 2. Extract the contents of the zip file.
-3. Copy everything from inside the `bin` folder in the zip file into the `bin` folder within your MongoDB installation directory (e.g., `C:\Program Files\MongoDB\Server\7.0\bin`).
+3. Copy everything from inside the `bin` folder in the zip file (should be 8 `.exe` files) into the `bin` folder within your MongoDB installation directory (e.g., `C:\Program Files\MongoDB\Server\7.0\bin`).
 
 ### Step 5: Add MongoDB to the Path Environment Variable
 
