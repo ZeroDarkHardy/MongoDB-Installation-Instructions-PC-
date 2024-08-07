@@ -95,6 +95,7 @@ Check to see if you have pymongo installed in your dev Conda environment.
 
 ![env_variables.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/env_variables.png
 )
+
 3. In the Environment Variables window, find the `Path` variable under the "System variables" section and select it. Click "Edit...".
 
 ![variable_instructions.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/variable_instructions.png)
