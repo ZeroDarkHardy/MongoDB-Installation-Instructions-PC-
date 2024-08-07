@@ -36,16 +36,10 @@ This repository provides step-by-step instructions to help students install Mong
 
 Check to see if you have pymongo installed in your dev Conda environment.
 
-#### For Mac Users:
-
-1. Activate your dev Conda development environment (if it isn’t already activated) by running the following code in your terminal:
+1. Launch the Anaconda prompt and run:
    ```sh
    conda activate dev
    ```
-
-#### For Windows Users:
-
-1. Launch the Anaconda prompt for your dev environment.
 
 #### Check for PyMongo Installation:
 
