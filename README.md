@@ -1,6 +1,6 @@
 # MongoDB Installation Guide for Students (PC Platform)
 
-Author: Matt Hardy, August 6 2024
+Author: Matt Hardy, August 6, 2024
 
 This repository provides step-by-step instructions to help students install MongoDB on their PCs. Follow the instructions carefully to ensure a successful installation.
 
@@ -18,17 +18,17 @@ This repository provides step-by-step instructions to help students install Mong
 2. Run the downloaded `.msi` file to start the installation.
 3. During the installation:
    - Choose the "Complete" setup type.
-
-   ![complete_install.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/complete_install.png)
+   
+     ![complete_install.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/complete_install.png)
 
    - On the "Service Configuration" screen, leave "Install MongoD as a Service" checked.
-
-   ![service_config.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/service_config.png)
+   
+     ![service_config.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/service_config.png)
 
    - Leave the data directory and log directory at their default settings.
    - Ensure the "Install MongoDB Compass" option is checked to install MongoDB Compass along with the server.
-
-   ![compass_install.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/compass_install.png)
+   
+     ![compass_install.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/compass_install.png)
 
    - Complete the installation to ensure MongoDB is installed at `C:\Program Files\MongoDB\Server\7.0`.
 
@@ -83,21 +83,20 @@ Check to see if you have pymongo installed in your dev Conda environment.
 
 1. Open the Start Menu and search for "Environment Variables" and select "Edit the system environment variables".
 
-![search_bar.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/search_bar.png)
+    ![search_bar.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/search_bar.png)
 
 2. In the System Properties window, click the "Environment Variables..." button.
 
-![env_variables.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/env_variables.png
-)
+    ![env_variables.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/env_variables.png)
 
 3. In the Environment Variables window, find the `Path` variable under the "System variables" section and select it. Click "Edit...".
 
-![variable_instructions.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/variable_instructions.png)
+    ![variable_instructions.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/variable_instructions.png)
 
 4. Click "New" and add the path to the `bin` folder within your MongoDB installation directory (e.g., `C:\Program Files\MongoDB\Server\7.0\bin`).
 
-![variable_instructions2.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/variable_instructions2.png)
-![file_path.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/file_path.png)
+    ![variable_instructions2.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/variable_instructions2.png)
+    ![file_path.png](https://github.com/ZeroDarkHardy/MongoDB-Installation-Instructions-PC-/blob/main/images/file_path.png)
 
 5. Click "OK" to close all windows.
 
